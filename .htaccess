@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule ^home$ index.php
+RewriteRule ^\$best$ stack.php
+RewriteRule ^\$everything$ stack.php?id=-1
+RewriteRule ^\$followed$ stack.php?id=-2
+RewriteRule ^\$recent$ stack.php?id=-3
+RewriteRule ^stacks$ stacks.php
+RewriteRule ^settings$ settings.php
+RewriteRule ^about$ about.php
+RewriteRule ^faq$ faq.html
+RewriteRule ^(\$.[_0-9A-Za-z-]+)$ stack.php?id=$1
+RewriteRule ^u/([_0-9a-z-]+)$ stack.php?id=$1
+RewriteRule ^(@.[_0-9a-z-]+)$ stack.php?id=$1
+RewriteRule ^p/([0-9]+)$ post.php?id=$1
+RewriteRule ^p/([0-9]+)&([0-9]+)$ post.php?id=$1&cid=$2

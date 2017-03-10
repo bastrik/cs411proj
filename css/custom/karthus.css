@@ -1,0 +1,12 @@
+.userbanner {
+    background-image: url("http://i.imgur.com/m30Zvxx.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right center;
+}
+.navbar-default {
+    background: #000;
+}
+/*body{*/
+    /*background-color: #333;*/
+/*}*/

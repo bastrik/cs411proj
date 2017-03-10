@@ -1,0 +1,3 @@
+score = up - down
+time = currenttime - posttime
+rank = log(score, 5) - e^[(time/18000)]

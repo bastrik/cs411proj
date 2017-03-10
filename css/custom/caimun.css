@@ -1,0 +1,43 @@
+.banner{
+    background: center top fixed url("http://caimun.ca/img/logotrans.png") #bbb no-repeat;
+    background-size: 45%;
+}
+@media (max-width: 767px) {
+    .banner {
+        background-size: 100%;
+    }
+}
+.navbar-default{
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active{
+    color: #999;
+}
+.navbar-default .navbar-brand{
+    font-size:32px;
+    text-shadow: none;
+    color: #910600;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{
+    color: #9aa9c8;
+    text-shadow: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #999;
+}
+.navbar-nav .open .dropdown-menu{
+    background-color: #fff;
+    border-radius: 0;
+    padding: 0;
+}
+.navbar-nav{
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #9aa9c8;
+    color: #999;
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    transition: backgroud-color .2s ease-in-out;
+}

@@ -1,0 +1,59 @@
+body,html{
+    background:rgb(22,22,22);
+}
+.item{
+    background: rgb(33,33,33);
+    border: none;
+    border-right: #333 solid 3px;
+    color: #888;
+}
+.linkcontainer {
+     background-color: #333;
+ }
+.count{
+    color: #777;
+}
+.stackdown{
+    background-image: url("../img/post/downtrans.svg");
+}
+.stackup{
+    background-image: url("../img/post/upstacktrans.svg");
+}
+.stack-up{
+    /*background-color: #980200;*/
+    background-image: url("../img/post/upstacked.svg");
+}
+.stack-down{
+    background-image: url("../img/post/downstacked.svg");
+    /*background-color: #3C81A8;*/
+}
+.stacklist{
+    background-color: rgb(33,33,33);
+}
+.listlink a{
+    background-color: #111;
+}
+.form-control{
+    background: #111;
+}
+.back{
+    background-color: #333;
+    color: #000;
+    border: none;
+}
+.commentfeed{
+    background-color: rgb(33,33,33);
+}
+.child{
+    border: 1px solid #333;
+}
+#comments{
+    background: none;
+}
+.comment{
+    color: #888;
+    border-left: 3px solid #444;
+}
+.comment-content:hover{
+    background-color: #111;
+}

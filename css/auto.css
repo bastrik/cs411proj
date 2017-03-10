@@ -1,0 +1,25 @@
+.ui-autocomplete span.hl_results {
+    background-color: #5eabed;
+}
+
+/* scroll results */
+.ui-autocomplete {
+    padding: 5px;
+    border-radius: 0;
+}
+
+.ui-autocomplete li {
+    font-size: 16px;
+}
+
+.ui-widget-content {
+    background: none;
+    background-color: #fff;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: #CDE;
+    border: 1px solid #CDE;
+    color:#000;
+    border-radius:0;
+}
