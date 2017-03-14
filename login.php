@@ -110,6 +110,6 @@ if(!(empty($username)||empty($password))){
         echo "1";
     }
 }else{
-    echo '69';
+    echo 'pls no';
 }
 ob_end_flush();

@@ -97,7 +97,7 @@ include_once "pageheader.php" ?>
                     <input name="resetemail" type="email" class="form-control" placeholder="Email address" required maxlength="254">
                 </div>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LfZ5QMTAAAAADr8zlP-Aclz_ISiAXk7g6VBTYtR"></div>
+            <div class="g-recaptcha" data-sitekey="6Ldf3BgUAAAAAOJcgl_ajXlrh-Fd8ePu_9yeNlk1"></div>
             <div class="form-group margintop">
                 <div class="col-sm-12">
                     <button type="submit" id="revbutton" class="btn btn-default btn-primary" style="font-weight: normal">Retrieve password</button>

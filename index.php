@@ -171,7 +171,7 @@ if(isset($_SESSION['user_id'])){
                                         <button type="button" class="close" onclick="slideout('pass-alert');"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                         <span id="reference">Pass needs to be longer than 6 characters</span>
                                     </div>
-                                    <div id="cap1" class="g-recaptcha margintop" data-sitekey="6LfZ5QMTAAAAADr8zlP-Aclz_ISiAXk7g6VBTYtR"></div>
+                                    <div class="g-recaptcha" data-sitekey="6Ldf3BgUAAAAAOJcgl_ajXlrh-Fd8ePu_9yeNlk1"></div>
                                     <button class="btn btn-lg btn-primary btn-block margintop" type="submit">Sign Up</button>
                                     <p class="small">By signing up, you agree to the <a href="privacy.php">Privacy Policy</a></p>
                                 </div>
