@@ -37,7 +37,7 @@ include_once "php/stackname.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Stacksity | <?
+    <title>eBase XCHG | <?
         echo $stackname;
     ?></title>
     <meta name="description" content="<? echo $stackname." | ".$stack_desc;?>">
@@ -70,9 +70,9 @@ include_once "php/stackname.php";
     <meta name="theme-color" content="#ffffff">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="Talk issues, read news, or just find something funny from nearby or from the world on Stacksity, there's a stack for anything so come find it.">
-    <meta name="keywords" content="Stacksity, stack, stacks, social network, vote, topstack, university, reddit alternative, reddit clone, reddit, stackcity, not stackcity, reddit sucks, ellen pao sucks, voat" />
-    <meta name="author" content="Tyler Han"/>
+    <meta name="description" content="Buy, sell, and exchange with people in your area! There's a place for everything. Don't let them sit collecting dust while taking up space at home!">
+    <meta name="keywords" content="eBase, XCHG, ride share, furniture, electronics, tickets, services, books" />
+    <meta name="author" content=""/>
     <meta name="distribution" content="global"/>
     <meta http-equiv="content-language" content="en-us"/>
 
@@ -116,7 +116,7 @@ if($nsfw&&(!$login||!isset($_SESSION["nsfw"])||$_SESSION["nsfw"]==0)){
                 <h4 class="modal-title" id="myModalLabel">This is a Not Safe For Work Stack.</h4>
               </div>
               <div class="modal-body">
-                Are you over 18 and willing to see adult content?
+                Are you over 18?
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
@@ -165,21 +165,16 @@ echo $is_user;
             if($stack>0&&$stack!=4917){
                 if($stack==0&&!$login){
                     echo '<ul class="frontstack">
-                                        <a href="$cute"><li style="background-image: url(http://i.imgur.com/UGQaZLT.jpg)">$cute</li></a>
-                                        <a href="$discuss"><li style=" background-image:url(http://i.imgur.com/lF8HyKW.jpg)">$discuss</li></a>
-                                        <a href="$lol"><li style=" background-image:url(http://i.imgur.com/o9Q3odr.jpg)">$lol</li></a>
-                                        <a href="$fitness"><li style=" background-image:url(http://i.imgur.com/lskVSUx.jpg)">$fitness</li></a>
-                                        <a href="$food"><li style=" background-image:url(http://i.imgur.com/m2T28qJ.jpg)">$food</li></a>
-                                        <a href="$foundout"><li style=" background-image:url(http://i.imgur.com/vjwlZ2z.jpg)">$foundout</li></a>
-                                        <a href="$gaming"><li style=" background-image:url(http://i.imgur.com/Dzjl72V.jpg)">$gaming</li></a>
-                                        <a href="$interesting"><li style=" background-image:url(http://i.imgur.com/d7K05QO.jpg)">$interesting</li></a>
-                                        <a href="$music"><li style=" background-image:url(http://i.imgur.com/HCd3FqL.jpg)">$music</li></a>
-                                        <a href="$news"><li style=" background-image:url(http://i.imgur.com/FRkE5qO.jpg)">$news</li></a>
-                                        <a href="$science"><li style=" background-image:url(http://i.imgur.com/N3CHB6k.jpg)">$science</li></a>
+                                        <a href="$cute"><li style="background-image: url(http://i.imgur.com/4RgwHYp.jpg)">$service</li></a>
+                                        <a href="$discuss"><li style=" background-image:url(http://i.imgur.com/o8c067T.jpg)">$electronics</li></a>
+                                        <a href="$lol"><li style=" background-image:url(http://i.imgur.com/gbtSyQB.jpg)">$furniture</li></a>
+                                        <a href="$fitness"><li style=" background-image:url(http://i.imgur.com/vjwlZ2z.jpg)">$books</li></a>
+                                        <a href="$food"><li style=" background-image:url(http://i.imgur.com/pGY7f3A.jpg)">$RideShare</li></a>
+                                        <a href="$foundout"><li style=" background-image:url(http://i.imgur.com/UGQaZLT.jpg)">$others</li></a>
                                     </ul>
                                     <div style="padding: 10px 0 20px 0;">
                                     <h1>> <a href="/home">Get Started with STACKSITY</a></h1>
-                                    <span style="font-size: 18px">Share links, text, and images with your friends, nearby, or the world. Discuss issues, read news, or just find something funny. Vote your favorites to the top of the stack!</span></div>';
+                                    <span style="font-size: 18px">Buy, sell, and exchange with people in your area! There\'\s a place for everything. Don\'t\ let them sit collecting dust while taking up space at home!</span></div>';
                 }else{
                     echo "<p id='bio' style='font-size: 1.0em;'>".$stack_desc."</p>";
                     if($stack==$_SESSION['stack_id']){
@@ -342,17 +337,12 @@ echo $is_user;
                 <h2>Explore Stacks</h2>
                 <ul class="frontstack wide" style="padding: 0px;">
 <!--                    <a href="$near"><li style=" background-image:url(/img/earth.jpg)">$near</li></a>-->
-                    <a href="$cute"><li style="background-image: url(http://i.imgur.com/UGQaZLT.jpg)">$cute</li></a>
-                    <a href="$discuss"><li style=" background-image:url(http://i.imgur.com/lF8HyKW.jpg)">$discuss</li></a>
-                    <a href="$lol"><li style=" background-image:url(http://i.imgur.com/o9Q3odr.jpg)">$lol</li></a>
-                    <a href="$fitness"><li style=" background-image:url(http://i.imgur.com/lskVSUx.jpg)">$fitness</li></a>
-                    <a href="$food"><li style=" background-image:url(http://i.imgur.com/m2T28qJ.jpg)">$food</li></a>
-                    <a href="$foundout"><li style=" background-image:url(http://i.imgur.com/vjwlZ2z.jpg)">$foundout</li></a>
-                    <a href="$gaming"><li style=" background-image:url(http://i.imgur.com/Dzjl72V.jpg)">$gaming</li></a>
-                    <a href="$interesting"><li style=" background-image:url(http://i.imgur.com/d7K05QO.jpg)">$interesting</li></a>
-                    <a href="$music"><li style=" background-image:url(http://i.imgur.com/HCd3FqL.jpg)">$music</li></a>
-                    <a href="$news"><li style=" background-image:url(http://i.imgur.com/FRkE5qO.jpg)">$news</li></a>
-                    <a href="$science"><li style=" background-image:url(http://i.imgur.com/N3CHB6k.jpg)">$science</li></a>
+                    <a href="$cute"><li style="background-image: url(http://i.imgur.com/4RgwHYp.jpg)">$service</li></a>
+                    <a href="$discuss"><li style=" background-image:url(http://i.imgur.com/o8c067T.jpg)">$electronics</li></a>
+                    <a href="$lol"><li style=" background-image:url(http://i.imgur.com/gbtSyQB.jpg)">$furniture</li></a>
+                    <a href="$fitness"><li style=" background-image:url(http://i.imgur.com/vjwlZ2z.jpg)">$books</li></a>
+                    <a href="$food"><li style=" background-image:url(http://i.imgur.com/pGY7f3A.jpg)">$RideShare</li></a>
+                    <a href="$foundout"><li style=" background-image:url(http://i.imgur.com/UGQaZLT.jpg)">$others</li></a>
                 </ul>
             </div>
             <div id="sticky">
@@ -366,29 +356,16 @@ echo $is_user;
                 <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
-                <h2>Get the App</h2>
-                <div class="discover-button clearfix">
-                    <a href="https://geo.itunes.apple.com/ca/app/stacksity/id1052618205?mt=8" class="appbutton appbutton-download" style="margin-right: 10px">
-                        <div class="storelogo"></div>
-                        <span class="button-download-title">Download for</span>
-                        <span class="button-download-subtitle">Apple iOS</span>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.stack.stacksity" class="appbutton appbutton-download">
-                        <div class="androidlogo storelogo"></div>
-                        <span class="button-download-title">Download for</span>
-                        <span class="button-download-subtitle">Android</span>
-                    </a>
-                </div>
                 <h2>Find Stacksity</h2>
                 <div class="social-icons">
                     <li class="facebook">
-                        <a href="https://www.facebook.com/ubcmia?fref=ts" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                     </li>
                     <li class="youtube">
-                        <a href="https://www.youtube.com/watch?v=qmGJIz5m5lU">YouTube</a>
+                        <a href="https://www.youtube.com/">YouTube</a>
                     </li>
                     <li class="twitter">
-                        <a href="https://twitter.com/stacksity">Twitter</a>
+                        <a href="https://twitter.com/">Twitter</a>
                     </li>
                 </div>
                 <div>

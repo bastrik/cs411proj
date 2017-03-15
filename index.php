@@ -9,27 +9,27 @@ if(isset($_SESSION['user_id'])){
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Stacksity | Welcome</title>
+        <title>eBaseXCHG | Welcome</title>
         <meta name="viewport" content="width=device-width, minimal-ui, initial-scale=1, maximum-scale=1, user-scalable=no"/>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="icon" href="img/favicon.ico">
         <meta property="fb:app_id" content="">
         <meta property="fb:admins" content="">
-        <meta property="og:site_name" content="Stacksity">
+        <meta property="og:site_name" content="eBaseXCHG">
         <meta property="og:url" content="https://stacksity.com">
         <meta property="og:type" content="social">
-        <meta property="og:title" content="Stacksity">
-        <meta property="og:description" content="Stacksity is a social network allowing users to submit and vote on content.">
+        <meta property="og:title" content="eBaseXCHG">
+        <meta property="og:description" content="eBaseXCHG is a website where students can sell, search and buy used products.">
         <meta property="og:image" content="img/ms-icon-310x310.png">
         <meta property="fb:page_id" content="">
         <meta name="twitter:site" content="">
-        <meta name="twitter:title" content="Stacksity">
-        <meta name="twitter:description" content="Stacksity is a social network allowing users to submit and vote on content.">
+        <meta name="twitter:title" content="eBaseXCHG">
+        <meta name="twitter:description" content="eBaseXCHG is a website where students can sell, search and buy used products.">
         <meta name="twitter:image" content="img/ms-icon-310x310.png">
         <meta name="apple-itunes-app" content="">
-        <meta itemprop="name" content="Stacksity">
-        <meta itemprop="description" content="Stacksity is a social network allowing users to submit and vote on content.">
+        <meta itemprop="name" content="eBaseXCHG">
+        <meta itemprop="description" content="eBaseXCHG is a website where students can sell, search and buy used products.">
         <meta itemprop="image" content="img/ms-icon-310x310.png">
         <link rel="shortcut icon" href="img/favicon.ico">
         <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
@@ -51,7 +51,7 @@ if(isset($_SESSION['user_id'])){
         <meta name="theme-color" content="#ffffff">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="description" content="Stacksity is a social network allowing users to submit and vote on content.">
+        <meta name="description" content="eBaseXCHG is a website where students can sell, search and buy used products.">
         <meta name="keywords" content="Stacksity, Stackcity, Stack city, stack, stacks, social network, vote, topstack, university" />
 <!--        <meta name="author" content="Tyler Han"/>-->
         <meta name="distribution" content="global"/>
@@ -94,7 +94,7 @@ if(isset($_SESSION['user_id'])){
                     <div class="row">
                         <div class="col-md-8 col-sm-7">
                             <div class="intro">
-                                <h1>Welcome to STACK$ITY</h1>
+                                <h1>Welcome to eBaseXCHG</h1>
                                 <?
                                     if(isset($_GET['err'])){
                                         echo '<div id="log-alert" class="alert alert-danger alert-dismissible" role="alert" maxlength="48" style="display: block; max-width: 450px">
@@ -107,21 +107,16 @@ if(isset($_SESSION['user_id'])){
                                         </div>';
                                     }
                                 ?>
-                                <p>Share links, text, and images with your friends and with the world. Discuss issues, read news, or just show your friends something funny. Vote your favorites to the top of the stack!</p>
+                                <p>eBaseXCHG is a website where students can sell, search and buy used products.</p>
                                 <a href="$best" style="color: #fff"><h2>Explore Stacks</h2></a>
                                 <ul class="frontstack" style="padding: 0px;">
-                                    <a href="$near"><li style=" background-image:url(/img/earth.jpg)">$near</li></a>
-                                    <a href="$cute"><li style="background-image: url(http://i.imgur.com/UGQaZLT.jpg)">$cute</li></a>
-                                    <a href="$discuss"><li style=" background-image:url(http://i.imgur.com/lF8HyKW.jpg)">$discuss</li></a>
-                                    <a href="$lol"><li style=" background-image:url(http://i.imgur.com/o9Q3odr.jpg)">$lol</li></a>
-                                    <a href="$fitness"><li style=" background-image:url(http://i.imgur.com/lskVSUx.jpg)">$fitness</li></a>
-                                    <a href="$food"><li style=" background-image:url(http://i.imgur.com/m2T28qJ.jpg)">$food</li></a>
-                                    <a href="$foundout"><li style=" background-image:url(http://i.imgur.com/vjwlZ2z.jpg)">$foundout</li></a>
-                                    <a href="$gaming"><li style=" background-image:url(http://i.imgur.com/Dzjl72V.jpg)">$gaming</li></a>
-                                    <a href="$interesting"><li style=" background-image:url(http://i.imgur.com/d7K05QO.jpg)">$interesting</li></a>
-                                    <a href="$music"><li style=" background-image:url(http://i.imgur.com/HCd3FqL.jpg)">$music</li></a>
-                                    <a href="$news"><li style=" background-image:url(http://i.imgur.com/FRkE5qO.jpg)">$news</li></a>
-                                    <a href="$science"><li style=" background-image:url(http://i.imgur.com/N3CHB6k.jpg)">$science</li></a>
+                                    <a href="$near"><li style=" background-image:url(http://i.imgur.com/4RgwHYp.jpg)">$service</li></a>
+                                    <a href="$cute"><li style="background-image: url(http://i.imgur.com/o8c067T.jpg)">$electronics</li></a>
+                                    <a href="$discuss"><li style=" background-image:url(http://i.imgur.com/gbtSyQB.jpg)">$furniture</li></a>
+                                    <a href="$lol"><li style=" background-image:url(http://i.imgur.com/vjwlZ2z.jpg)">$books</li></a>
+                                    <a href="$fitness"><li style=" background-image:url(http://i.imgur.com/pGY7f3A.jpg)">$RideShare</li></a>
+                                    <a href="$food"><li style=" background-image:url(http://i.imgur.com/UGQaZLT.jpg)">$others</li></a>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -148,9 +143,9 @@ if(isset($_SESSION['user_id'])){
                                 <button class="btn btn-lg btn-primary btn-block" onclick="signin()">Or sign in here</button>
                             </div>
                             <form class="signinform margintop marginbottom" id="account" role="form" data-toggle="validator">
-                                <h2 class="form-signin-heading" id="form2head">New to Stacksity? Sign up</h2>
+                                <h2 class="form-signin-heading" id="form2head">New to eBaseXCHG? Sign up</h2>
                                 <div id="inforeg" style="display: none">
-                                    <p>Alright, you're in. Now <b>Login above</b>, and welcome to Stacksity :D</p>
+                                    <p>Alright, you're in. Now <b>Login above</b>, and welcome to eBaseXCHG :D</p>
                                 </div>
                                 <div id="info">
                                     <label for="inputEmail" class="sr-only">Email address</label>
@@ -159,8 +154,8 @@ if(isset($_SESSION['user_id'])){
                                         <button type="button" class="close" onclick="slideout('email-alert');"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                         <span>Sorry, seems like this email is taken</span>
                                     </div>
-                                    <label for="inputName" class="sr-only">Stacksity Username</label>
-                                    <input name="username" type="text" id="inputUsername" class="form-control margintop" placeholder="Stacksity Username" required style="margin-top: 2px" maxlength="32">
+                                    <label for="inputName" class="sr-only">eBaseXCHG Username</label>
+                                    <input name="username" type="text" id="inputUsername" class="form-control margintop" placeholder="eBaseXCHG Username" required style="margin-top: 2px" maxlength="32">
                                     <div id="user-alert" class="alert alert-danger alert-dismissible" role="alert" maxlength="48">
                                         <button type="button" class="close" onclick="slideout('user-alert');"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                                         <span>Sorry, seems this username is taken</span>
